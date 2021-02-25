@@ -2,6 +2,7 @@
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -29,11 +30,11 @@
   margin-left: 0.5rem;
 }
 
-.footer a {
+/* .footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .title a {
   color: #0070f3;
@@ -117,6 +118,9 @@
 @media (max-width: 600px) {
   .grid {
     width: 100%;
+    flex-direction: column;
+  }
+  .footer {
     flex-direction: column;
   }
 }
