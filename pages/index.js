@@ -41,7 +41,7 @@ export default function Home({ data }) {
               </div>
               <div className="mb-6">
                 <Link href="/beginner">
-                  <a className="p-2 px-4 bg-yellow-200 rounded-md">
+                  <a className="p-2 px-4 transition-all transform bg-yellow-200 border-2 border-yellow-200 rounded-md duration-400 hover:bg-yellow-100 hover:-translate-y-1 hover:shadow-md hover:border-yellow-400">
                     Show App Ideas
                   </a>
                 </Link>
@@ -58,7 +58,7 @@ export default function Home({ data }) {
               </div>
               <div className="mb-6">
                 <Link href="/intermediate">
-                  <a className="p-2 px-4 bg-yellow-200 rounded-md">
+                  <a className="p-2 px-4 transition-all transform bg-yellow-200 border-2 border-yellow-200 rounded-md duration-400 hover:bg-yellow-100 hover:-translate-y-1 hover:shadow-md hover:border-yellow-400">
                     Show App Ideas
                   </a>
                 </Link>
@@ -75,7 +75,7 @@ export default function Home({ data }) {
               </div>
               <div className="mb-6">
                 <Link href="/advanced">
-                  <a className="p-2 px-4 bg-yellow-200 rounded-md">
+                  <a className="p-2 px-4 transition-all transform bg-yellow-200 border-2 border-yellow-200 rounded-md duration-400 hover:bg-yellow-100 hover:-translate-y-1 hover:shadow-md hover:border-yellow-400">
                     Show App Ideas
                   </a>
                 </Link>
