@@ -11,4 +11,8 @@ module.exports = {
     }
     return config;
   },
+  react: {
+    useSuspense: false,
+    wait: true,
+  },
 };

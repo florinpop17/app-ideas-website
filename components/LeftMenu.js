@@ -4,7 +4,7 @@ import Link from "./ActiveLink";
 
 function LeftMenu() {
   const items = [
-    { text: "All Levels", link: "/" },
+    { text: "All Levels", link: "/all-levels" },
     { text: "Beginner", link: "/beginner" },
     { text: "Intermediate", link: "/intermediate" },
     { text: "Advanced", link: "/advanced" },

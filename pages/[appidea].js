@@ -2,6 +2,8 @@ import react from "react";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import HeadContent from "./../components/HeadContent";
+import Layout from "./../components/Layout";
 //import gfm from "remark-gfm";
 
 const CodeBlock = ({ language, value }) => {
@@ -16,14 +18,20 @@ const Appidea = ({ content, data }) => {
   const frontmatter = data;
 
   return (
-    <div className="pb-24 mx-8">
-      <ReactMarkdown
-        // plugins={[gfm]}
-        escapeHtml={false}
-        source={content}
-        renderers={{ code: CodeBlock }}
-      />
-    </div>
+    <Layout>
+      <div className="pb-24 mx-8">
+        <HeadContent
+          title={frontmatter ? frontmatter.title : "App ideas"}
+          description={frontmatter ? frontmatter.export : "App ideas"}
+        />
+        <ReactMarkdown
+          // plugins={[gfm]}
+          escapeHtml={false}
+          source={content}
+          renderers={{ code: CodeBlock }}
+        />
+      </div>
+    </Layout>
   );
 };
 

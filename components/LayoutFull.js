@@ -9,9 +9,6 @@ const Layout = ({ children, pageProps }) => {
       <div className="bg-gray-50">
         <Navbar />
         <div className="container flex mx-auto mt-6 md:mt-20">
-          <div className="hidden w-64 p-6 mr-2 border-r md:block" id="leftmenu">
-            <LeftMenu></LeftMenu>
-          </div>
           <div id="maincontent" className="flex-1">
             {children}
           </div>
