@@ -29,7 +29,7 @@ export default function Home({ data }) {
             for developers. This list is intended to solve this issue once and
             for all! 👍
           </p>
-          <div className="flex flex-col w-full my-20 space-y-6 md:space-x-6 md:flex-row md:space-y-0 md:h-96 lg:h-72 xl:h-64">
+          <div className="flex flex-col w-full px-0 my-20 space-y-6 text-center md:space-x-6 md:flex-row md:space-y-0 md:h-96 lg:h-72 xl:h-64 2xl:px-32">
             <div className="flex flex-col justify-between px-6 border-2 border-yellow-300 rounded-md md:w-1/3">
               <div>
                 <h2>Beginner</h2>
@@ -82,54 +82,58 @@ export default function Home({ data }) {
               </div>
             </div>
           </div>
-          <p>
-            <div className="mt-12 mb-4 font-bold">These applications are:</div>
-            <div>
-              <ul className="leading-7 text-left">
-                <li>
-                  great for improving your coding skills 💪; great for
-                  experimenting
-                </li>
-                <li>
-                  with new technologies 🆕; great for adding to your portfolio
-                  to
-                </li>
-                <li>
-                  impress your next employer/client 📁; great for using as
-                  examples
-                </li>
-                <li>
-                  in tutorials (articles or videos) 📃; easy to complete and
-                  also
-                </li>
-                <li>easily extendable with new features 👌;</li>
-              </ul>
-            </div>
-          </p>
-          <p>
-            This is not just a simple list of projects, but a collection that
-            describes each project in enough detail so that you can develop it
-            from the ground up!
-          </p>
-          <p>Each project has the following features:</p>
-          <ul className="leading-7 text-left">
-            <li>A clear and descriptive objective;</li>
-            <li>
-              A list of User Stories which should be implemented (these stories
-              act more as a guideline than a forced list of To-Do's. Feel free
-              to add your own stories if you want);
-            </li>
-            <li>
-              A list of bonus features that not only improve the base project,
-              but also your skills at the same time (these are optional and
-              should be attempted only after you have completed the required
-              user stories)
-            </li>
-            <li>
-              All the resources and links to help you find what you need to
-              complete the project
-            </li>
-          </ul>
+          <div className="2xl:px-32">
+            <p>
+              <div className="mt-12 mb-4 font-bold">
+                These applications are:
+              </div>
+              <div>
+                <ul className="leading-7 text-left">
+                  <li>
+                    great for improving your coding skills 💪; great for
+                    experimenting
+                  </li>
+                  <li>
+                    with new technologies 🆕; great for adding to your portfolio
+                    to
+                  </li>
+                  <li>
+                    impress your next employer/client 📁; great for using as
+                    examples
+                  </li>
+                  <li>
+                    in tutorials (articles or videos) 📃; easy to complete and
+                    also
+                  </li>
+                  <li>easily extendable with new features 👌;</li>
+                </ul>
+              </div>
+            </p>
+            <p>
+              This is not just a simple list of projects, but a collection that
+              describes each project in enough detail so that you can develop it
+              from the ground up!
+            </p>
+            <p>Each project has the following features:</p>
+            <ul className="leading-7 text-left">
+              <li>A clear and descriptive objective;</li>
+              <li>
+                A list of User Stories which should be implemented (these
+                stories act more as a guideline than a forced list of To-Do's.
+                Feel free to add your own stories if you want);
+              </li>
+              <li>
+                A list of bonus features that not only improve the base project,
+                but also your skills at the same time (these are optional and
+                should be attempted only after you have completed the required
+                user stories)
+              </li>
+              <li>
+                All the resources and links to help you find what you need to
+                complete the project
+              </li>
+            </ul>
+          </div>
         </main>
       </div>
     </LayoutFull>
